@@ -38,7 +38,7 @@ void log_event(const char *message, const char *src, const char *dst) {
 }
 
 void mkdir_p(const char *path) {
-    char tmp[PATH_MAX];
+    char tmp[8192];
     snprintf(tmp, sizeof(tmp), "%s", path);
     for (char *p = tmp + 1; *p; p++) {
         if (*p == '/') {
@@ -77,7 +77,7 @@ void sync_directories(const char *src, const char *dst) {
 }
 
 void remove_from_target(const char *relative_path) {
-    char dst[PATH_MAX];
+    char dst[8192];
     snprintf(dst, sizeof(dst), "%s/%s", target_dir, relative_path);
     remove(dst);
 }

@@ -1,7 +1,7 @@
 #ifndef WATCHER_H
 #define WATCHER_H
 
-#include <sys/inotify.h> // Para struct inotify_event
+#include <sys/inotify.h> 
 #include <limits.h>
 
 #define MAX_WATCHES 1024

@@ -6,7 +6,6 @@
 #include <sys/stat.h>
 #include <dirent.h>
 #include <fcntl.h>
-#include <time.h>
 #include <limits.h>
 #include "config.h"
 #include "utils.h"
@@ -51,7 +50,7 @@ int main(int argc, char **argv) {
                 continue;
             }
 
-            char full_src[PATH_MAX], full_dst[PATH_MAX];
+            char full_src[8192], full_dst[8192];
             snprintf(full_src, sizeof(full_src), "%s/%s", watched_path, event->name);
             snprintf(full_dst, sizeof(full_dst), "%s/%s", target_dir, full_src + strlen(source_dir) + 1);
 
