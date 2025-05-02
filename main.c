@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
     while (1) {
         int length = read(fd, buffer, EVENT_BUF_LEN);
         if (length <= 0) {
-            usleep(100000); // 100ms
+            usleep(100000); 
             continue;
         }
 
