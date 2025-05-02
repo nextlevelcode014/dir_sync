@@ -1,0 +1,13 @@
+[Unit]
+Description=Monitoramento contínuo de arquivos com dir_sync
+After=network.target
+
+[Service]
+ExecStart=%h/bin/dir_sync_all.sh
+Restart=on-failure
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=%h/.Xauthority
+
+[Install]
+WantedBy=default.target
+

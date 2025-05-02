@@ -8,6 +8,7 @@
 #include <limits.h>
 #include "utils.h"
 #include "config.h"
+#include <fnmatch.h>
 
 void copy_file(const char *src_path, const char *dst_path) {
     FILE *src = fopen(src_path, "rb");
@@ -80,4 +81,14 @@ void remove_from_target(const char *relative_path) {
     char dst[8192];
     snprintf(dst, sizeof(dst), "%s/%s", target_dir, relative_path);
     remove(dst);
+}
+
+int is_temporary_file(const char *filename) {
+    return (
+        strcmp(filename, "4913") == 0 ||
+        fnmatch("*.swp", filename, 0) == 0 ||
+        fnmatch("*~", filename, 0) == 0 ||
+        fnmatch("*.tmp", filename, 0) == 0 ||
+        fnmatch(".#*", filename, 0) == 0
+    );
 }
