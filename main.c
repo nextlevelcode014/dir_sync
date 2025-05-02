@@ -22,7 +22,7 @@ int main(int argc, char **argv) {
 
     sync_directories(source_dir, target_dir);
 
-    int fd = inotify_init1(IN_NONBLOCK);
+    int fd = inotify_init();
     if (fd < 0) {
         perror("inotify_init1");
         return 1;
@@ -36,8 +36,8 @@ int main(int argc, char **argv) {
     while (1) {
         int length = read(fd, buffer, EVENT_BUF_LEN);
         if (length <= 0) {
-            usleep(100000); 
-            continue;
+            perror("read");
+            break;
         }
 
         int i = 0;
