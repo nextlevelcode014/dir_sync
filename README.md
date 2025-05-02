@@ -146,9 +146,9 @@ journalctl --user -u dir_sync.service -f
 ```
 dir_sync/
 ├── main.c
-|-- config.c/.h
+├── config.c/.h
 ├── watcher.c/.h        # Lida com inotify
-|-- utils.c/.h          # Lida com a logica do sistema de arquivos
+├── utils.c/.h          # Lida com a logica do sistema de arquivos
 ├── Makefile
 ├── dir_sync_all.sh         # Script opcional para rodar várias instâncias
 └── README.md
