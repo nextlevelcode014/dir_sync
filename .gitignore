@@ -1,0 +1,44 @@
+# Executável
+/dir_sync
+
+# Objetos e arquivos de compilação
+*.o
+*.a
+*.so
+*.out
+
+# Arquivos gerados pelo make
+*.d
+*.lst
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Diretórios de build
+build/
+bin/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.user
+
+# Arquivos de depuração
+*.core
+*.gch
+*.pch
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Documentação gerada
+docs/
+Doxygen/
+
+# Dependências externas
+deps/
+external/
