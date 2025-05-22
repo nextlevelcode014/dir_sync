@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
         while (i < length) {
             struct inotify_event *event = (struct inotify_event *) &buffer[i];
             
-            if (!event->len || is_temporary_file(event->name)) {
+            if (!event->len || is_temporary_file(event->name) || blacklist(event->name)) {
                 i += EVENT_SIZE + event->len;
                 continue;
             }

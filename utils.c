@@ -58,7 +58,7 @@ void sync_directories(const char *src, const char *dst) {
     mkdir_p(dst);
     struct dirent *entry;
     while ((entry = readdir(dir))) {
-        if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0) continue;
+        if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0 || blacklist(entry->d_name) || is_temporary_file(entry->d_name)) continue;
 
         char src_path[PATH_MAX], dst_path[PATH_MAX];
         snprintf(src_path, sizeof(src_path), "%s/%s", src, entry->d_name);
@@ -81,6 +81,32 @@ void remove_from_target(const char *relative_path) {
     char dst[8192];
     snprintf(dst, sizeof(dst), "%s/%s", target_dir, relative_path);
     remove(dst);
+}
+
+int parse_config_file() {
+   
+    return 0;
+}
+
+int blacklist(const char *black_dir) {
+    FILE *file = fopen("/etc/dir_sync/blacklist.txt", "r");
+    if (!file) {
+        perror("Cannot open blacklist file");
+        return 0;
+    }
+
+    char line[MAX_LINE];
+    while (fgets(line, sizeof(line), file)) {
+        line[strcspn(line, "\r\n")] = 0;  // Remove newline
+
+        if (strcmp(black_dir, line) == 0) {
+            fclose(file);
+            return 1;  // Match found
+        }
+    }
+
+    fclose(file);
+    return 0;  // No match
 }
 
 int is_temporary_file(const char *filename) {
