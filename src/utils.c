@@ -89,7 +89,7 @@ int parse_config_file() {
 }
 
 int blacklist(const char *black_dir) {
-    FILE *file = fopen("/etc/dir_sync/blacklist.txt", "r");
+    FILE *file = fopen("/home/nextlevelcode/bin/blacklist.txt", "r");
     if (!file) {
         perror("Cannot open blacklist file");
         return 0;
