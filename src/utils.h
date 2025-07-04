@@ -3,6 +3,13 @@
 
 #define MAX_LINE 256
 
+/**
+ * @brief Adds two integers.
+ * 
+ * @param a First integer.
+ * @param b Second integer.
+ * @return int Sum of a and b.
+ */
 void copy_file(const char *src_path, const char *dst_path);
 void log_event(const char *message, const char *src, const char *dst);
 void mkdir_p(const char *path);

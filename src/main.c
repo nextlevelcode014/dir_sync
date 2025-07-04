@@ -11,6 +11,13 @@
 #include "utils.h"
 #include "watcher.h"
 
+/** 
+ * @brief Adds two integers.
+ * 
+ * @param a First integer.
+ * @param b Second integer.
+ * @return Sum of a and b.
+ */
 int main(int argc, char **argv) {
     if (argc < 3) {
         fprintf(stderr, "Uso: %s <source_dir> <target_dir>\n", argv[0]);

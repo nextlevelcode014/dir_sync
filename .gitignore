@@ -1,5 +1,6 @@
+docs/html/
 # Executável
-/dir_sync
+dir_sync
 
 # Objetos e arquivos de compilação
 *.o
