@@ -13,7 +13,7 @@ $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 docs:
-	doxygen src/Doxyfile
+	doxygen Doxyfile
 
 clean:
 	rm -f $(OBJS) $(TARGET)
