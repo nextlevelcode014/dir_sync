@@ -1,6 +1,7 @@
 # 🛡️ dir_sync – Directory Synchronization with Real-Time Monitoring
 
 This project recursively **synchronizes directories** and monitors **changes in real time**, replicating updates from a source directory (`source`) to a target directory (`target`).
+[See the documentation](https://nextlevelcode014.github.io/dir_sync)
 
 ---
 
