@@ -1,0 +1,29 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Main program entry point." alt="" coords="5,214,55,239"/>
+<area shape="rect" id="Node000002" href="$watcher_8c.html#a3f26d51aef64a440d0646f9a3b47386c" title="Recursively adds a directory and all its subdirectories to the watch list." alt="" coords="103,63,247,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,212,58,162,77,132,101,106,118,94,121,98,104,110,81,135,62,164,39,215"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#adea68d9f366b7b0090fa791745b22d2b" title="Check whether a file or directory is blacklisted." alt="" coords="320,64,389,90"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="29,213,31,174,41,122,50,94,63,68,80,44,101,24,138,6,171,4,206,12,248,24,273,36,296,51,306,55,304,60,294,56,270,41,246,29,205,17,171,9,139,11,104,29,84,48,67,71,55,96,46,123,37,175,34,213"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a231659ba0555e0d2d3db08f29c62cfaf" title="Checks whether a file is considered temporary." alt="" coords="295,114,413,139"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="37,212,63,179,81,163,101,149,145,133,192,123,238,119,279,118,280,124,238,124,193,129,147,138,104,154,84,167,67,183,42,215"/>
+<area shape="rect" id="Node000006" href="$utils_8c.html#a53013572dd5eddea79ba70b96dd8fa47" title="Copies a file from source path to the destination path." alt="" coords="318,214,390,239"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="55,224,303,224,303,229,55,229"/>
+<area shape="rect" id="Node000007" href="$watcher_8c.html#a0d172679de065dcfb5c63718cceeb672" title="Returns the path associated with a given path descriptor." alt="" coords="118,340,232,366"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="41,238,66,278,84,300,104,319,123,331,120,335,101,323,80,303,62,281,36,241"/>
+<area shape="rect" id="Node000008" href="$utils_8c.html#af09b83ee30375f727266fd1fc540404e" title="Logs an event indicating a change between source and destination files." alt="" coords="136,390,214,415"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="36,239,44,267,57,304,77,343,104,377,123,388,120,393,101,381,72,346,52,306,39,269,31,240"/>
+<area shape="rect" id="Node000009" href="$utils_8c.html#aab5e3cbbe46659075de35f7a5d425ca4" title=" " alt="" coords="320,263,388,289"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="55,228,306,266,305,271,55,233"/>
+<area shape="rect" id="Node000010" href="$utils_8c.html#a3fdcd826e504728b17a526e3796c0aa9" title="Recursively synchronizes two directories." alt="" coords="117,188,232,214"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="54,220,101,211,102,217,55,225"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="150,64,145,54,148,45,158,39,175,36,193,39,202,46,199,50,191,44,175,42,160,44,152,48,150,54,155,61"/>
+<area shape="rect" id="Node000003" href="$watcher_8c.html#a07548e60da03deb66d56688242a18980" title="Adds a directory to watch list." alt="" coords="312,15,396,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="225,60,297,40,298,46,227,65"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="248,74,304,74,304,79,247,79"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="224,87,293,107,291,112,222,92"/>
+<area shape="poly" id="edge13_Node000010_Node000004" title=" " alt="" coords="187,186,232,144,294,99,304,93,307,98,296,103,236,149,191,190"/>
+<area shape="poly" id="edge15_Node000010_Node000005" title=" " alt="" coords="207,185,306,143,308,148,209,190"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="233,207,304,217,303,222,233,212"/>
+<area shape="poly" id="edge16_Node000010_Node000009" title=" " alt="" coords="208,212,296,249,307,254,305,259,294,254,206,217"/>
+<area shape="poly" id="edge17_Node000010_Node000010" title=" " alt="" coords="150,189,145,180,148,170,158,164,175,162,193,164,202,171,199,175,191,169,175,167,160,169,152,174,150,179,155,187"/>
+</map>

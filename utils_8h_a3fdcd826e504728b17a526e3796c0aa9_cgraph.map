@@ -1,0 +1,12 @@
+<map id="sync_directories" name="sync_directories">
+<area shape="rect" id="Node000001" title="Recursively synchronizes two directories." alt="" coords="5,80,121,106"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="35,81,30,71,33,62,44,56,63,53,83,56,94,63,91,67,81,61,63,59,46,61,37,65,35,71,39,78"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#adea68d9f366b7b0090fa791745b22d2b" title="Check whether a file or directory is blacklisted." alt="" coords="193,5,262,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,77,168,40,178,35,180,40,170,45,92,82"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#a53013572dd5eddea79ba70b96dd8fa47" title="Copies a file from source path to the destination path." alt="" coords="192,55,264,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,81,177,73,177,78,121,87"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#a231659ba0555e0d2d3db08f29c62cfaf" title="Checks whether a file is considered temporary." alt="" coords="169,104,287,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="121,99,154,103,153,109,121,104"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#aab5e3cbbe46659075de35f7a5d425ca4" title=" " alt="" coords="194,153,262,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="93,104,170,140,181,145,179,150,168,145,90,109"/>
+</map>

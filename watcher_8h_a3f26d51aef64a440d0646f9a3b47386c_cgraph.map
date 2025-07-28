@@ -1,0 +1,10 @@
+<map id="add_watch_recursive" name="add_watch_recursive">
+<area shape="rect" id="Node000001" title="Recursively adds a directory and all its subdirectories to the watch list." alt="" coords="5,55,150,80"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="47,56,41,46,45,36,57,30,78,28,99,31,111,37,108,42,98,36,77,33,59,35,49,40,47,45,52,53"/>
+<area shape="rect" id="Node000002" href="$watcher_8c.html#a07548e60da03deb66d56688242a18980" title="Adds a directory to watch list." alt="" coords="215,5,299,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,51,199,31,200,36,128,57"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#adea68d9f366b7b0090fa791745b22d2b" title="Check whether a file or directory is blacklisted." alt="" coords="222,55,292,80"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="150,65,207,65,207,70,150,70"/>
+<area shape="rect" id="Node000004" href="$utils_8c.html#a231659ba0555e0d2d3db08f29c62cfaf" title="Checks whether a file is considered temporary." alt="" coords="198,104,316,130"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="128,78,193,97,192,102,126,84"/>
+</map>

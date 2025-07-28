@@ -1,0 +1,9 @@
+<map id="mkdir_p" name="mkdir_p">
+<area shape="rect" id="Node000001" title=" " alt="" coords="266,8,333,33"/>
+<area shape="rect" id="Node000002" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Main program entry point." alt="" coords="5,8,55,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,15,218,11,160,8,103,11,55,18,55,13,102,6,160,3,218,6,251,9"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html#a3fdcd826e504728b17a526e3796c0aa9" title="Recursively synchronizes two directories." alt="" coords="103,45,218,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,36,211,47,210,42,250,31"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="98,43,54,30,56,25,99,37"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="182,32,174,26,160,24,147,25,140,30,139,36,142,43,138,46,133,36,136,27,145,21,160,18,177,21,185,28"/>
+</map>
