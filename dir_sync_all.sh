@@ -7,7 +7,7 @@ BIN="$DIR/dir_sync"
 
 BLACKLIST="$DIR/blacklist.txt"
 
-BLACKLIST_PATH="$BLACKLIST" $BIN "$HOME/dev/sysconfig/nvim/" "$HOME/.config/nvim/"  &
+BLACKLIST_PATH="$BLACKLIST" $BIN "$HOME/dev/dir_sync/source" "$HOME/dev/dir_sync/target"  &
 
 wait
 
