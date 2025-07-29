@@ -101,7 +101,6 @@ int blacklist(const char *black_dir)
     const char *path = getenv("BLACKLIST_PATH");
     if (!path)
     {
-        fprintf(stdout, "blcklist not set");
         return 0;
     }
 
