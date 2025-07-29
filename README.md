@@ -98,12 +98,14 @@ You can create a script like `dir_sync_all.sh`:
 ```bash
 #!/bin/bash
 
-BIN="$HOME/bin/dir_sync"
+DIR="$(dirname "$(readlink -f "$0")")"
+BIN="$DIR/dir_sync"
 
-$BIN "$HOME/.config/i3/" "$HOME/dev/sysconfig/i3/" &
-$BIN "$HOME/.config/nvim/" "$HOME/dev/sysconfig/nvim/" &
-$BIN "$HOME/.config/fish/config.fish" "$HOME/dev/sysconfig/fish/config.fish" &
-$BIN "$HOME/.config/starship.toml" "$HOME/dev/sysconfig/starship/starship.toml" &
+# If you have multiple instances, some of the directory names listed may conflict, so instead of exporting the variable globally, you can do this.
+
+BLACKLIST="$DIR/blacklist.txt"
+
+BLACKLIST_PATH="$BLACKLIST" $BIN "$HOME/dev/dir_sync/source" "$HOME/dev/dir_sync/target"  &
 
 wait
 ```
